@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Alabama",
+    "slug": "alabama",
+    "fee": 200,
+    "skip": false
+  },
+  {
+    "name": "Alaska",
+    "slug": "alaska",
+    "fee": 250,
+    "skip": false
+  },
+  {
+    "name": "Arizona",
+    "slug": "arizona",
+    "fee": 50,
+    "skip": false
+  },
+  {
+    "name": "Arkansas",
+    "slug": "arkansas",
+    "fee": 45,
+    "skip": false
+  },
+  {
+    "name": "California",
+    "slug": "california",
+    "fee": 70,
+    "skip": true
+  },
+  {
+    "name": "Colorado",
+    "slug": "colorado",
+    "fee": 50,
+    "skip": false
+  },
+  {
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "fee": 120,
+    "skip": false
+  },
+  {
+    "name": "Delaware",
+    "slug": "delaware",
+    "fee": 90,
+    "skip": false
+  },
+  {
+    "name": "Florida",
+    "slug": "florida",
+    "fee": 125,
+    "skip": true
+  },
+  {
+    "name": "Georgia",
+    "slug": "georgia",
+    "fee": 100,
+    "skip": false
+  },
+  {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "fee": 50,
+    "skip": false
+  },
+  {
+    "name": "Idaho",
+    "slug": "idaho",
+    "fee": 100,
+    "skip": false
+  },
+  {
+    "name": "Illinois",
+    "slug": "illinois",
+    "fee": 150,
+    "skip": false
+  },
+  {
+    "name": "Indiana",
+    "slug": "indiana",
+    "fee": 95,
+    "skip": false
+  },
+  {
+    "name": "Iowa",
+    "slug": "iowa",
+    "fee": 50,
+    "skip": false
+  },
+  {
+    "name": "Kansas",
+    "slug": "kansas",
+    "fee": 160,
+    "skip": false
+  },
+  {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "fee": 40,
+    "skip": false
+  },
+  {
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "fee": 100,
+    "skip": false
+  },
+  {
+    "name": "Maine",
+    "slug": "maine",
+    "fee": 175,
+    "skip": false
+  },
+  {
+    "name": "Maryland",
+    "slug": "maryland",
+    "fee": 100,
+    "skip": false
+  },
+  {
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "fee": 500,
+    "skip": false
+  },
+  {
+    "name": "Michigan",
+    "slug": "michigan",
+    "fee": 50,
+    "skip": false
+  },
+  {
+    "name": "Minnesota",
+    "slug": "minnesota",
+    "fee": 155,
+    "skip": false
+  },
+  {
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "fee": 50,
+    "skip": false
+  },
+  {
+    "name": "Missouri",
+    "slug": "missouri",
+    "fee": 50,
+    "skip": false
+  },
+  {
+    "name": "Montana",
+    "slug": "montana",
+    "fee": 70,
+    "skip": false
+  },
+  {
+    "name": "Nebraska",
+    "slug": "nebraska",
+    "fee": 105,
+    "skip": false
+  },
+  {
+    "name": "Nevada",
+    "slug": "nevada",
+    "fee": 75,
+    "skip": false
+  },
+  {
+    "name": "New Hampshire",
+    "slug": "new-hampshire",
+    "fee": 100,
+    "skip": false
+  },
+  {
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "fee": 125,
+    "skip": false
+  },
+  {
+    "name": "New Mexico",
+    "slug": "new-mexico",
+    "fee": 50,
+    "skip": false
+  },
+  {
+    "name": "New York",
+    "slug": "new-york",
+    "fee": 200,
+    "skip": false
+  },
+  {
+    "name": "North Carolina",
+    "slug": "north-carolina",
+    "fee": 125,
+    "skip": false
+  },
+  {
+    "name": "North Dakota",
+    "slug": "north-dakota",
+    "fee": 135,
+    "skip": false
+  },
+  {
+    "name": "Ohio",
+    "slug": "ohio",
+    "fee": 99,
+    "skip": false
+  },
+  {
+    "name": "Oklahoma",
+    "slug": "oklahoma",
+    "fee": 100,
+    "skip": false
+  },
+  {
+    "name": "Oregon",
+    "slug": "oregon",
+    "fee": 100,
+    "skip": false
+  },
+  {
+    "name": "Pennsylvania",
+    "slug": "pennsylvania",
+    "fee": 125,
+    "skip": false
+  },
+  {
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "fee": 150,
+    "skip": false
+  },
+  {
+    "name": "South Carolina",
+    "slug": "south-carolina",
+    "fee": 110,
+    "skip": false
+  },
+  {
+    "name": "South Dakota",
+    "slug": "south-dakota",
+    "fee": 150,
+    "skip": false
+  },
+  {
+    "name": "Tennessee",
+    "slug": "tennessee",
+    "fee": 300,
+    "skip": false
+  },
+  {
+    "name": "Texas",
+    "slug": "texas",
+    "fee": 300,
+    "skip": true
+  },
+  {
+    "name": "Utah",
+    "slug": "utah",
+    "fee": 54,
+    "skip": false
+  },
+  {
+    "name": "Vermont",
+    "slug": "vermont",
+    "fee": 125,
+    "skip": false
+  },
+  {
+    "name": "Virginia",
+    "slug": "virginia",
+    "fee": 100,
+    "skip": false
+  },
+  {
+    "name": "Washington",
+    "slug": "washington",
+    "fee": 200,
+    "skip": false
+  },
+  {
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "fee": 100,
+    "skip": false
+  },
+  {
+    "name": "Wisconsin",
+    "slug": "wisconsin",
+    "fee": 130,
+    "skip": false
+  },
+  {
+    "name": "Wyoming",
+    "slug": "wyoming",
+    "fee": 100,
+    "skip": false
+  }
+]

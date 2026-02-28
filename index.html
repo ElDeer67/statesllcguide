@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free LLC formation guides for all 50 states. Step-by-step instructions, costs, timelines, and required forms. Start your business today with our comprehensive 2026 guides.">
+    <meta name="keywords" content="LLC formation, start LLC, form LLC, business formation guide, LLC cost by state, how to start an LLC, LLC filing fee">
+    <title>StateBusinessGuide.com - Free LLC Formation Guides for All 50 States (2026)</title>
+    <link rel="canonical" href="https://statebusinessguide.com/">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "StateBusinessGuide.com",
+      "url": "https://statebusinessguide.com",
+      "description": "Free, comprehensive LLC formation guides for all 50 US states",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://statebusinessguide.com/{search_term_string}-llc.html",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; line-height: 1.6; color: #2c3e50; background: #f8f9fa; }
+        
+        /* Hero */
+        .hero { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 4rem 1rem; text-align: center; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; font-weight: 700; }
+        .hero .tagline { font-size: 1.3rem; opacity: 0.9; max-width: 700px; margin: 0 auto 2rem; }
+        .hero-stats { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; margin-top: 2rem; }
+        .hero-stat { text-align: center; }
+        .hero-stat .number { font-size: 2.5rem; font-weight: 700; }
+        .hero-stat .label { font-size: 0.9rem; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.05em; }
+        
+        /* Search/Select */
+        .state-selector { max-width: 600px; margin: -30px auto 2rem; position: relative; z-index: 10; }
+        .state-selector select { width: 100%; padding: 1.2rem 1.5rem; font-size: 1.1rem; border: none; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); appearance: none; background: white url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232c3e50'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e") no-repeat right 1rem center/1.5rem; cursor: pointer; color: #2c3e50; }
+        
+        .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+        
+        /* Popular States */
+        .section-title { font-size: 2rem; color: #1e3c72; margin: 2rem 0 1.5rem; text-align: center; }
+        .section-subtitle { text-align: center; color: #7f8c8d; margin-bottom: 2rem; font-size: 1.1rem; }
+        
+        .popular-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
+        .state-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; }
+        .state-card:hover { transform: translateY(-3px); box-shadow: 0 5px 20px rgba(0,0,0,0.1); text-decoration: none; }
+        .state-card h3 { font-size: 1.3rem; color: #1e3c72; margin-bottom: 0.8rem; }
+        .state-card .meta { display: flex; gap: 1.5rem; margin-bottom: 0.8rem; }
+        .state-card .meta span { font-size: 0.9rem; color: #7f8c8d; }
+        .state-card .meta strong { color: #2c3e50; }
+        .state-card .badge { display: inline-block; background: #e8f4f8; color: #2a5298; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; }
+        
+        .ad-slot { background: #ecf0f1; border: 2px dashed #bdc3c7; padding: 2rem; text-align: center; color: #7f8c8d; margin: 2rem 0; border-radius: 8px; }
+        
+        /* Comparison Table */
+        .comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .comparison-table th { background: #34495e; color: white; padding: 1rem; text-align: left; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .comparison-table td { padding: 1rem; border-bottom: 1px solid #ecf0f1; }
+        .comparison-table tr:hover { background: #f0f7ff; }
+        .comparison-table a { color: #3498db; font-weight: 600; text-decoration: none; }
+        .comparison-table a:hover { text-decoration: underline; }
+        .fee-low { color: #27ae60; font-weight: 700; }
+        .fee-mid { color: #e67e22; font-weight: 700; }
+        .fee-high { color: #e74c3c; font-weight: 700; }
+        
+        /* All States Grid */
+        .all-states { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.8rem; margin: 2rem 0; }
+        .all-states a { display: block; background: white; padding: 1rem 1.2rem; border-radius: 8px; text-decoration: none; color: #2c3e50; box-shadow: 0 1px 5px rgba(0,0,0,0.05); transition: background 0.2s; font-weight: 500; }
+        .all-states a:hover { background: #e8f4f8; text-decoration: none; }
+        .all-states a .fee { float: right; color: #27ae60; font-weight: 700; }
+        
+        /* Value Props */
+        .value-props { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0; }
+        .value-prop { text-align: center; padding: 2rem; }
+        .value-prop .icon { font-size: 2.5rem; margin-bottom: 1rem; }
+        .value-prop h3 { font-size: 1.2rem; color: #1e3c72; margin-bottom: 0.8rem; }
+        .value-prop p { color: #7f8c8d; font-size: 0.95rem; }
+        
+        footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 1rem; margin-top: 4rem; }
+        footer a { color: #ecf0f1; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .hero-stats { gap: 1.5rem; }
+            .popular-grid { grid-template-columns: 1fr; }
+            .all-states { grid-template-columns: 1fr 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>📊 StateBusinessGuide.com</h1>
+        <p class="tagline">Free, comprehensive LLC formation guides for all 50 states. Step-by-step instructions, real costs, and plain English. No upsells.</p>
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="number">50</div>
+                <div class="label">State Guides</div>
+            </div>
+            <div class="hero-stat">
+                <div class="number">$40-$500</div>
+                <div class="label">Filing Fee Range</div>
+            </div>
+            <div class="hero-stat">
+                <div class="number">100%</div>
+                <div class="label">Free</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="state-selector">
+        <select onchange="if(this.value) window.location.href=this.value" aria-label="Select your state">
+            <option value="">🔍 Select Your State to Get Started...</option>
+            <option value="/alabama-llc.html">Alabama - $200</option>
+            <option value="/alaska-llc.html">Alaska - $250</option>
+            <option value="/arizona-llc.html">Arizona - $50</option>
+            <option value="/arkansas-llc.html">Arkansas - $45</option>
+            <option value="/california-llc.html">California - $70</option>
+            <option value="/colorado-llc.html">Colorado - $50</option>
+            <option value="/connecticut-llc.html">Connecticut - $120</option>
+            <option value="/delaware-llc.html">Delaware - $90</option>
+            <option value="/florida-llc.html">Florida - $125</option>
+            <option value="/georgia-llc.html">Georgia - $100</option>
+            <option value="/hawaii-llc.html">Hawaii - $50</option>
+            <option value="/idaho-llc.html">Idaho - $100</option>
+            <option value="/illinois-llc.html">Illinois - $150</option>
+            <option value="/indiana-llc.html">Indiana - $95</option>
+            <option value="/iowa-llc.html">Iowa - $50</option>
+            <option value="/kansas-llc.html">Kansas - $160</option>
+            <option value="/kentucky-llc.html">Kentucky - $40</option>
+            <option value="/louisiana-llc.html">Louisiana - $100</option>
+            <option value="/maine-llc.html">Maine - $175</option>
+            <option value="/maryland-llc.html">Maryland - $100</option>
+            <option value="/massachusetts-llc.html">Massachusetts - $500</option>
+            <option value="/michigan-llc.html">Michigan - $50</option>
+            <option value="/minnesota-llc.html">Minnesota - $155</option>
+            <option value="/mississippi-llc.html">Mississippi - $50</option>
+            <option value="/missouri-llc.html">Missouri - $50</option>
+            <option value="/montana-llc.html">Montana - $70</option>
+            <option value="/nebraska-llc.html">Nebraska - $105</option>
+            <option value="/nevada-llc.html">Nevada - $75</option>
+            <option value="/new-hampshire-llc.html">New Hampshire - $100</option>
+            <option value="/new-jersey-llc.html">New Jersey - $125</option>
+            <option value="/new-mexico-llc.html">New Mexico - $50</option>
+            <option value="/new-york-llc.html">New York - $200</option>
+            <option value="/north-carolina-llc.html">North Carolina - $125</option>
+            <option value="/north-dakota-llc.html">North Dakota - $135</option>
+            <option value="/ohio-llc.html">Ohio - $99</option>
+            <option value="/oklahoma-llc.html">Oklahoma - $100</option>
+            <option value="/oregon-llc.html">Oregon - $100</option>
+            <option value="/pennsylvania-llc.html">Pennsylvania - $125</option>
+            <option value="/rhode-island-llc.html">Rhode Island - $150</option>
+            <option value="/south-carolina-llc.html">South Carolina - $110</option>
+            <option value="/south-dakota-llc.html">South Dakota - $150</option>
+            <option value="/tennessee-llc.html">Tennessee - $300</option>
+            <option value="/texas-llc.html">Texas - $300</option>
+            <option value="/utah-llc.html">Utah - $54</option>
+            <option value="/vermont-llc.html">Vermont - $125</option>
+            <option value="/virginia-llc.html">Virginia - $100</option>
+            <option value="/washington-llc.html">Washington - $200</option>
+            <option value="/west-virginia-llc.html">West Virginia - $100</option>
+            <option value="/wisconsin-llc.html">Wisconsin - $130</option>
+            <option value="/wyoming-llc.html">Wyoming - $100</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <div class="ad-slot">[ Ad Space - Google AdSense 728x90 ]</div>
+        
+        <h2 class="section-title">Most Popular LLC Guides</h2>
+        <p class="section-subtitle">Our top 10 most-searched state guides</p>
+        
+        <div class="popular-grid">
+            <a href="/california-llc.html" class="state-card">
+                <h3>🌴 California LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$70</strong></span>
+                    <span>Time: <strong>5-10 Days</strong></span>
+                </div>
+                <span class="badge">Most Popular</span>
+            </a>
+            <a href="/texas-llc.html" class="state-card">
+                <h3>⛳ Texas LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$300</strong></span>
+                    <span>Time: <strong>2-5 Days</strong></span>
+                </div>
+                <span class="badge">No State Income Tax</span>
+            </a>
+            <a href="/florida-llc.html" class="state-card">
+                <h3>🌊 Florida LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$125</strong></span>
+                    <span>Time: <strong>3-5 Days</strong></span>
+                </div>
+                <span class="badge">No State Income Tax</span>
+            </a>
+            <a href="/new-york-llc.html" class="state-card">
+                <h3>🗽 New York LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$200</strong></span>
+                    <span>Time: <strong>5-7 Days</strong></span>
+                </div>
+                <span class="badge">Publication Required</span>
+            </a>
+            <a href="/illinois-llc.html" class="state-card">
+                <h3>🏙️ Illinois LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$150</strong></span>
+                    <span>Time: <strong>5-10 Days</strong></span>
+                </div>
+                <span class="badge">Recently Reduced Fee</span>
+            </a>
+            <a href="/pennsylvania-llc.html" class="state-card">
+                <h3>🔔 Pennsylvania LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$125</strong></span>
+                    <span>Time: <strong>5-10 Days</strong></span>
+                </div>
+                <span class="badge">Low Ongoing Costs</span>
+            </a>
+            <a href="/ohio-llc.html" class="state-card">
+                <h3>🌾 Ohio LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$99</strong></span>
+                    <span>Time: <strong>3-5 Days</strong></span>
+                </div>
+                <span class="badge">No Annual Report</span>
+            </a>
+            <a href="/georgia-llc.html" class="state-card">
+                <h3>🍑 Georgia LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$100</strong></span>
+                    <span>Time: <strong>5-7 Days</strong></span>
+                </div>
+            </a>
+            <a href="/north-carolina-llc.html" class="state-card">
+                <h3>🌲 North Carolina LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$125</strong></span>
+                    <span>Time: <strong>3-5 Days</strong></span>
+                </div>
+            </a>
+            <a href="/michigan-llc.html" class="state-card">
+                <h3>🏔️ Michigan LLC</h3>
+                <div class="meta">
+                    <span>Filing Fee: <strong>$50</strong></span>
+                    <span>Time: <strong>5-7 Days</strong></span>
+                </div>
+                <span class="badge">Budget Friendly</span>
+            </a>
+        </div>
+        
+        <div class="ad-slot">[ Ad Space - Google AdSense 300x250 ]</div>
+        
+        <h2 class="section-title">Compare LLC Filing Fees by State</h2>
+        <p class="section-subtitle">Quick comparison of the top 10 most popular states</p>
+        
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>State</th>
+                    <th>Filing Fee</th>
+                    <th>Annual Cost</th>
+                    <th>Processing</th>
+                    <th>State Income Tax</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="/california-llc.html">California</a></td>
+                    <td class="fee-low">$70</td>
+                    <td>$800/yr (franchise tax)</td>
+                    <td>5-10 days</td>
+                    <td>Yes (1-13.3%)</td>
+                </tr>
+                <tr>
+                    <td><a href="/texas-llc.html">Texas</a></td>
+                    <td class="fee-high">$300</td>
+                    <td>$0 (no annual report)</td>
+                    <td>2-5 days</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td><a href="/florida-llc.html">Florida</a></td>
+                    <td class="fee-mid">$125</td>
+                    <td>$138.75/yr</td>
+                    <td>3-5 days</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td><a href="/new-york-llc.html">New York</a></td>
+                    <td class="fee-mid">$200</td>
+                    <td>$9/2 years + publication</td>
+                    <td>5-7 days</td>
+                    <td>Yes (4-10.9%)</td>
+                </tr>
+                <tr>
+                    <td><a href="/illinois-llc.html">Illinois</a></td>
+                    <td class="fee-mid">$150</td>
+                    <td>$75/yr</td>
+                    <td>5-10 days</td>
+                    <td>Yes (4.95%)</td>
+                </tr>
+                <tr>
+                    <td><a href="/delaware-llc.html">Delaware</a></td>
+                    <td class="fee-low">$90</td>
+                    <td>$300/yr</td>
+                    <td>2-4 weeks</td>
+                    <td>No (if out-of-state)</td>
+                </tr>
+                <tr>
+                    <td><a href="/wyoming-llc.html">Wyoming</a></td>
+                    <td class="fee-mid">$100</td>
+                    <td>$60/yr</td>
+                    <td>1-3 days</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td><a href="/nevada-llc.html">Nevada</a></td>
+                    <td class="fee-low">$75</td>
+                    <td>$150/yr + $200 license</td>
+                    <td>1-3 days</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td><a href="/georgia-llc.html">Georgia</a></td>
+                    <td class="fee-mid">$100</td>
+                    <td>$50/yr</td>
+                    <td>5-7 days</td>
+                    <td>Yes (1-5.49%)</td>
+                </tr>
+                <tr>
+                    <td><a href="/michigan-llc.html">Michigan</a></td>
+                    <td class="fee-low">$50</td>
+                    <td>$25/yr</td>
+                    <td>5-7 days</td>
+                    <td>Yes (4.25%)</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="ad-slot">[ Ad Space - Google AdSense 728x90 ]</div>
+        
+        <h2 class="section-title">All 50 State LLC Guides</h2>
+        <p class="section-subtitle">Click any state to view the complete formation guide</p>
+        
+        <div class="all-states">
+            <a href="/alabama-llc.html">Alabama <span class="fee">$200</span></a>
+            <a href="/alaska-llc.html">Alaska <span class="fee">$250</span></a>
+            <a href="/arizona-llc.html">Arizona <span class="fee">$50</span></a>
+            <a href="/arkansas-llc.html">Arkansas <span class="fee">$45</span></a>
+            <a href="/california-llc.html">California <span class="fee">$70</span></a>
+            <a href="/colorado-llc.html">Colorado <span class="fee">$50</span></a>
+            <a href="/connecticut-llc.html">Connecticut <span class="fee">$120</span></a>
+            <a href="/delaware-llc.html">Delaware <span class="fee">$90</span></a>
+            <a href="/florida-llc.html">Florida <span class="fee">$125</span></a>
+            <a href="/georgia-llc.html">Georgia <span class="fee">$100</span></a>
+            <a href="/hawaii-llc.html">Hawaii <span class="fee">$50</span></a>
+            <a href="/idaho-llc.html">Idaho <span class="fee">$100</span></a>
+            <a href="/illinois-llc.html">Illinois <span class="fee">$150</span></a>
+            <a href="/indiana-llc.html">Indiana <span class="fee">$95</span></a>
+            <a href="/iowa-llc.html">Iowa <span class="fee">$50</span></a>
+            <a href="/kansas-llc.html">Kansas <span class="fee">$160</span></a>
+            <a href="/kentucky-llc.html">Kentucky <span class="fee">$40</span></a>
+            <a href="/louisiana-llc.html">Louisiana <span class="fee">$100</span></a>
+            <a href="/maine-llc.html">Maine <span class="fee">$175</span></a>
+            <a href="/maryland-llc.html">Maryland <span class="fee">$100</span></a>
+            <a href="/massachusetts-llc.html">Massachusetts <span class="fee">$500</span></a>
+            <a href="/michigan-llc.html">Michigan <span class="fee">$50</span></a>
+            <a href="/minnesota-llc.html">Minnesota <span class="fee">$155</span></a>
+            <a href="/mississippi-llc.html">Mississippi <span class="fee">$50</span></a>
+            <a href="/missouri-llc.html">Missouri <span class="fee">$50</span></a>
+            <a href="/montana-llc.html">Montana <span class="fee">$70</span></a>
+            <a href="/nebraska-llc.html">Nebraska <span class="fee">$105</span></a>
+            <a href="/nevada-llc.html">Nevada <span class="fee">$75</span></a>
+            <a href="/new-hampshire-llc.html">New Hampshire <span class="fee">$100</span></a>
+            <a href="/new-jersey-llc.html">New Jersey <span class="fee">$125</span></a>
+            <a href="/new-mexico-llc.html">New Mexico <span class="fee">$50</span></a>
+            <a href="/new-york-llc.html">New York <span class="fee">$200</span></a>
+            <a href="/north-carolina-llc.html">North Carolina <span class="fee">$125</span></a>
+            <a href="/north-dakota-llc.html">North Dakota <span class="fee">$135</span></a>
+            <a href="/ohio-llc.html">Ohio <span class="fee">$99</span></a>
+            <a href="/oklahoma-llc.html">Oklahoma <span class="fee">$100</span></a>
+            <a href="/oregon-llc.html">Oregon <span class="fee">$100</span></a>
+            <a href="/pennsylvania-llc.html">Pennsylvania <span class="fee">$125</span></a>
+            <a href="/rhode-island-llc.html">Rhode Island <span class="fee">$150</span></a>
+            <a href="/south-carolina-llc.html">South Carolina <span class="fee">$110</span></a>
+            <a href="/south-dakota-llc.html">South Dakota <span class="fee">$150</span></a>
+            <a href="/tennessee-llc.html">Tennessee <span class="fee">$300</span></a>
+            <a href="/texas-llc.html">Texas <span class="fee">$300</span></a>
+            <a href="/utah-llc.html">Utah <span class="fee">$54</span></a>
+            <a href="/vermont-llc.html">Vermont <span class="fee">$125</span></a>
+            <a href="/virginia-llc.html">Virginia <span class="fee">$100</span></a>
+            <a href="/washington-llc.html">Washington <span class="fee">$200</span></a>
+            <a href="/west-virginia-llc.html">West Virginia <span class="fee">$100</span></a>
+            <a href="/wisconsin-llc.html">Wisconsin <span class="fee">$130</span></a>
+            <a href="/wyoming-llc.html">Wyoming <span class="fee">$100</span></a>
+        </div>
+        
+        <div class="ad-slot">[ Ad Space - Google AdSense 300x250 ]</div>
+        
+        <h2 class="section-title">Why Use StateBusinessGuide.com?</h2>
+        
+        <div class="value-props">
+            <div class="value-prop">
+                <div class="icon">💰</div>
+                <h3>100% Free</h3>
+                <p>No hidden fees, no upsells, no "premium" guides. Every state guide is completely free. We're supported by ads, not your wallet.</p>
+            </div>
+            <div class="value-prop">
+                <div class="icon">✅</div>
+                <h3>Verified & Updated</h3>
+                <p>Every guide is verified with official state sources and updated for 2026. Filing fees, forms, and processes — all current.</p>
+            </div>
+            <div class="value-prop">
+                <div class="icon">📝</div>
+                <h3>Plain English</h3>
+                <p>No legal jargon. No confusing fine print. Just clear, step-by-step instructions anyone can follow.</p>
+            </div>
+            <div class="value-prop">
+                <div class="icon">⚡</div>
+                <h3>Fast & Mobile-Friendly</h3>
+                <p>Lightweight pages that load instantly on any device. Read on your phone, tablet, or desktop.</p>
+            </div>
+        </div>
+        
+        <div class="ad-slot">[ Ad Space - Google AdSense 728x90 ]</div>
+    </div>
+    
+    <footer>
+        <p><strong>StateBusinessGuide.com</strong></p>
+        <p>Free, comprehensive state-by-state business formation guides.</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
+            Disclaimer: This site provides general information only. Consult a licensed attorney or CPA for legal or tax advice specific to your situation.
+        </p>
+        <p style="margin-top: 1rem; font-size: 0.85rem;">
+            © 2026 StateBusinessGuide.com | <a href="/about.html">About</a> | <a href="/">Home</a>
+        </p>
+    </footer>
+</body>
+</html>
