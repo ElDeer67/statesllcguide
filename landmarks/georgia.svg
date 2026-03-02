@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="#1e3c72" opacity="0.08">
+  <!-- Peach with leaf -->
+  <circle cx="100" cy="100" r="40"/>
+  <path d="M100,60 Q85,65 80,75" stroke-width="3" fill="none"/>
+  <ellipse cx="88" cy="70" rx="8" ry="12" transform="rotate(-30 88 70)"/>
+  <line x1="95" y1="80" x2="105" y2="120" stroke-width="2"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="#1e3c72" opacity="0.08">
+  <!-- State capitol building with dome -->
+  <rect x="70" y="100" width="60" height="60"/>
+  <polygon points="100,60 70,100 130,100"/>
+  <ellipse cx="100" cy="60" rx="20" ry="8"/>
+  <rect x="98" y="50" width="4" height="10"/>
+  <rect x="80" y="110" width="15" height="40"/>
+  <rect x="105" y="110" width="15" height="40"/>
+</svg>

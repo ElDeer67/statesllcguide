@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="#1e3c72" opacity="0.08">
+  <!-- Palm tree -->
+  <rect x="95" y="80" width="10" height="80"/>
+  <ellipse cx="100" cy="70" rx="30" ry="10" transform="rotate(-30 100 70)"/>
+  <ellipse cx="100" cy="70" rx="30" ry="10" transform="rotate(30 100 70)"/>
+  <ellipse cx="100" cy="65" rx="25" ry="10" transform="rotate(-10 100 65)"/>
+  <ellipse cx="100" cy="65" rx="25" ry="10" transform="rotate(10 100 65)"/>
+  <path d="M20,160 Q100,150 180,160" stroke="#1e3c72" stroke-width="2" fill="none"/>
+</svg>

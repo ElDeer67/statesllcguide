@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="#1e3c72" opacity="0.08">
+  <!-- Casino slot machine -->
+  <rect x="60" y="60" width="80" height="80" rx="5"/>
+  <rect x="70" y="150" width="60" height="10"/>
+  <circle cx="80" cy="90" r="12"/>
+  <circle cx="100" cy="90" r="12"/>
+  <circle cx="120" cy="90" r="12"/>
+  <rect x="75" y="110" width="50" height="20" rx="10"/>
+</svg>

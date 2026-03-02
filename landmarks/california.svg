@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#1e3c72" opacity="0.08">
+  <!-- Golden Gate Bridge silhouette -->
+  <line x1="20" y1="160" x2="180" y2="160" stroke-width="3"/>
+  <line x1="60" y1="60" x2="60" y2="160" stroke-width="4"/>
+  <line x1="140" y1="60" x2="140" y2="160" stroke-width="4"/>
+  <path d="M30,160 Q60,100 100,100 T170,160" stroke-width="2" fill="none"/>
+  <path d="M40,160 Q60,110 100,110 T160,160" stroke-width="2" fill="none"/>
+  <rect x="58" y="50" width="4" height="15" fill="#1e3c72"/>
+  <rect x="138" y="50" width="4" height="15" fill="#1e3c72"/>
+</svg>

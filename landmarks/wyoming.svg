@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="#1e3c72" opacity="0.08">
+  <!-- Grand Teton mountains -->
+  <polygon points="100,40 70,120 130,120"/>
+  <polygon points="60,90 40,140 80,140"/>
+  <polygon points="140,90 120,140 160,140"/>
+  <rect x="20" y="140" width="160" height="20"/>
+</svg>
