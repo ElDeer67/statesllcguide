@@ -69,22 +69,24 @@
         .section-subtitle { text-align: center; color: #7f8c8d; margin-bottom: 2rem; font-size: 1.1rem; }
         
         .popular-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
-        .state-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; position: relative; overflow: hidden; background-size: 140px; background-position: right -10px bottom -10px; background-repeat: no-repeat; }
+        .state-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; position: relative; overflow: hidden; background-size: cover; background-position: center; }
+        .state-card::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,255,255,0.92) 0%, rgba(255,255,255,0.85) 100%); z-index: 0; }
         .state-card > * { position: relative; z-index: 1; }
         .state-card:hover { transform: translateY(-3px); box-shadow: 0 5px 20px rgba(0,0,0,0.1); text-decoration: none; }
-        /* State-specific landmark backgrounds */
-        .state-card[href*="california"] { background-image: url('landmarks/california.svg'); }
-        .state-card[href*="texas"] { background-image: url('landmarks/texas.svg'); }
-        .state-card[href*="florida"] { background-image: url('landmarks/florida.svg'); }
-        .state-card[href*="new-york"] { background-image: url('landmarks/new-york.svg'); }
-        .state-card[href*="illinois"] { background-image: url('landmarks/illinois.svg'); }
-        .state-card[href*="delaware"] { background-image: url('landmarks/delaware.svg'); }
-        .state-card[href*="wyoming"] { background-image: url('landmarks/wyoming.svg'); }
-        .state-card[href*="nevada"] { background-image: url('landmarks/nevada.svg'); }
-        .state-card[href*="pennsylvania"] { background-image: url('landmarks/pennsylvania.svg'); }
-        .state-card[href*="ohio"] { background-image: url('landmarks/ohio.svg'); }
-        .state-card[href*="georgia"] { background-image: url('landmarks/georgia.svg'); }
-        .state-card[href*="north-carolina"] { background-image: url('landmarks/north-carolina.svg'); }
+        .state-card:hover::before { background: linear-gradient(135deg, rgba(255,255,255,0.88) 0%, rgba(255,255,255,0.82) 100%); }
+        /* State-specific landmark photo backgrounds */
+        .state-card[href*="california"] { background-image: url('https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=800&q=80'); }
+        .state-card[href*="texas"] { background-image: url('https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=800&q=80'); }
+        .state-card[href*="florida"] { background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80'); }
+        .state-card[href*="new-york"] { background-image: url('https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=800&q=80'); }
+        .state-card[href*="illinois"] { background-image: url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80'); }
+        .state-card[href*="delaware"] { background-image: url('https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&q=80'); }
+        .state-card[href*="wyoming"] { background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80'); }
+        .state-card[href*="nevada"] { background-image: url('https://images.unsplash.com/photo-1605833556294-ea5c7a74f0b5?w=800&q=80'); }
+        .state-card[href*="pennsylvania"] { background-image: url('https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=800&q=80'); }
+        .state-card[href*="ohio"] { background-image: url('https://images.unsplash.com/photo-1583416750470-965b2707b355?w=800&q=80'); }
+        .state-card[href*="georgia"] { background-image: url('https://images.unsplash.com/photo-1524813686514-a57563d77965?w=800&q=80'); }
+        .state-card[href*="north-carolina"] { background-image: url('https://images.unsplash.com/photo-1522093537031-3ee69e6b1746?w=800&q=80'); }
         .state-card h3 { font-size: 1.3rem; color: #1e3c72; margin-bottom: 0.8rem; }
         .state-card .meta { display: flex; gap: 1.5rem; margin-bottom: 0.8rem; }
         .state-card .meta span { font-size: 0.9rem; color: #7f8c8d; }
