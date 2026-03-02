@@ -69,8 +69,23 @@
         .section-subtitle { text-align: center; color: #7f8c8d; margin-bottom: 2rem; font-size: 1.1rem; }
         
         .popular-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
-        .state-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; }
+        .state-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; position: relative; overflow: hidden; }
+        .state-card::before { content: ''; position: absolute; right: -20px; bottom: -20px; font-size: 8rem; opacity: 0.06; pointer-events: none; z-index: 0; }
+        .state-card > * { position: relative; z-index: 1; }
         .state-card:hover { transform: translateY(-3px); box-shadow: 0 5px 20px rgba(0,0,0,0.1); text-decoration: none; }
+        /* State-specific landmark backgrounds */
+        .state-card[href*="california"]::before { content: '🌉'; }
+        .state-card[href*="texas"]::before { content: '🤠'; }
+        .state-card[href*="florida"]::before { content: '🏖️'; }
+        .state-card[href*="new-york"]::before { content: '🗽'; }
+        .state-card[href*="illinois"]::before { content: '🏙️'; }
+        .state-card[href*="delaware"]::before { content: '🏛️'; }
+        .state-card[href*="wyoming"]::before { content: '⛰️'; }
+        .state-card[href*="nevada"]::before { content: '🎰'; }
+        .state-card[href*="pennsylvania"]::before { content: '🔔'; }
+        .state-card[href*="ohio"]::before { content: '🏈'; }
+        .state-card[href*="georgia"]::before { content: '🍑'; }
+        .state-card[href*="north-carolina"]::before { content: '⛵'; }
         .state-card h3 { font-size: 1.3rem; color: #1e3c72; margin-bottom: 0.8rem; }
         .state-card .meta { display: flex; gap: 1.5rem; margin-bottom: 0.8rem; }
         .state-card .meta span { font-size: 0.9rem; color: #7f8c8d; }
