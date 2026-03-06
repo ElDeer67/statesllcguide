@@ -61,6 +61,16 @@
         .fact { text-align: center; }
         .fact-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #7f8c8d; font-weight: 600; margin-bottom: 0.4rem; }
         .fact-value { font-size: 1.5rem; font-weight: 700; color: #2c3e50; }
+
+        /* List styling */
+        .step-list { margin-left: 1.5rem; margin-top: 0.8rem; }
+        .step-list-tight { margin-left: 1.5rem; margin-top: 0.5rem; }
+        .inline-list { margin-left: 1.5rem; margin-top: 1rem; }
+        
+        /* Image styles */
+        .content-image { width: 100%; max-width: 700px; height: auto; border-radius: 8px; margin: 2rem 0; }
+        .image-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+        .image-grid img { width: 100%; height: 250px; object-fit: cover; border-radius: 8px; }
         .fact-value.cost { color: #27ae60; }
         .fact-value.time { color: #3498db; }
         .fact-value.difficulty { color: #e67e22; }
@@ -241,7 +251,7 @@
                     <li><a href="/florida-llc.html" style="color: #1f6feb;">Florida LLC Guide</a></li>
                     <li><a href="/california-llc.html" style="color: #1f6feb;">California LLC Guide</a></li>
                 </ul>
-                <p style="margin-top: 1rem;"><a href="/index.html" style="color: #1f6feb; font-weight: 600;">← View All 50 State LLC Guides</a></p>
+                <p><a href="/index.html" style="color: #1f6feb; font-weight: 600;">← View All 50 State LLC Guides</a></p>
             </div>
 
             
@@ -251,12 +261,12 @@
                 <li>
                     <h4>Choose Your LLC Name</h4>
                     <p>Your Nevada LLC name must:</p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>Include "Limited Liability Company," "LLC or L.L.C."</li>
                         <li>Be distinguishable from existing Nevada businesses</li>
                         <li>Not contain restricted words (bank, insurance, corporation) without approval</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>Check name availability:</strong> <a href="https://www.nvsilverflume.gov/" target="_blank">Nevada Secretary of State Business Search</a></p>
+                    <p><strong>Check name availability:</strong> <a href="https://www.nvsilverflume.gov/" target="_blank">Nevada Secretary of State Business Search</a></p>
                     <div class="warning-box">
                         <strong> Common Mistake:</strong> Don't skip the name search. If your name is too similar to an existing business, your filing will be rejected and you'll lose the $75 fee.
                     </div>
@@ -266,31 +276,31 @@
                     <h4>Appoint a Registered Agent</h4>
                     <p>Nevada requires every LLC to have a registered agent—a person or company authorized to receive legal documents on behalf of your business.</p>
                     <p><strong>Requirements:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>Must have a physical Nevada address (no P.O. boxes)</li>
                         <li>Must be available during normal business hours</li>
                         <li>Can be yourself, a partner, or a professional service</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>Cost:</strong> $0 if you act as your own agent. Professional services cost $100-300/year.</p>
+                    <p><strong>Cost:</strong> $0 if you act as your own agent. Professional services cost $100-300/year.</p>
                 </li>
                 
                 <li>
                     <h4>File Articles of Organization</h4>
                     <p>This is the official document that creates your LLC. You'll submit it to the Nevada Secretary of State.</p>
                     <p><strong>Required information:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>LLC name</li>
                         <li>Purpose of business (can be general)</li>
                         <li>Registered agent name and address</li>
                         <li>Management structure (member-managed or manager-managed)</li>
                         <li>Principal office address</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>How to file:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                    <p><strong>How to file:</strong></p>
+                    <ul class="step-list-tight">
                         <li><strong>Online:</strong> <a href="https://www.nvsilverflume.gov/" target="_blank">Nevada Secretary of State Online Filing</a> (fastest)</li>
                         <li><strong>Mail:</strong> Download and mail completed form (slower)</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>Filing Fee:</strong> $75 (non-refundable)</p>
+                    <p><strong>Filing Fee:</strong> $75 (non-refundable)</p>
                     <a href="https://www.nvsos.gov/" target="_blank" class="cta-button">Visit Nevada Secretary of State</a>
                 </li>
                 
@@ -298,7 +308,7 @@
                     <h4>Create an Operating Agreement</h4>
                     <p>While not always legally required, an Operating Agreement is <strong>highly recommended</strong>. It defines ownership percentages, profit distribution, management structure, and procedures for adding/removing members.</p>
                     <p><strong>Why you need it:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>Protects your limited liability status</li>
                         <li>Prevents disputes between members</li>
                         <li>Required by most banks to open a business account</li>
@@ -342,7 +352,7 @@
                     <tr><td>EIN (Federal Tax ID)</td><td>$0</td><td>Anytime</td></tr>
                     <tr><td>Registered Agent (if using service)</td><td>$100-300</td><td>Annual</td></tr>
                     <tr><td>Annual Report</td><td>$150</td><td>Annually</td></tr>
-                    <tr style="background: #f8f9fa; font-weight: bold;"><td>TOTAL (First Year, DIY)</td><td>$75</td><td>—</td></tr>
+                    <tr><td>TOTAL (First Year, DIY)</td><td>$75</td><td>—</td></tr>
                 </tbody>
             </table>
             
@@ -361,7 +371,7 @@
                     <tr><td>Create Operating Agreement</td><td>1-2 hours</td></tr>
                     <tr><td>Get EIN from IRS</td><td>10 minutes (instant online)</td></tr>
                     
-                    <tr style="background: #f8f9fa; font-weight: bold;"><td>TOTAL</td><td>1-3 days (plus paperwork time)</td></tr>
+                    <tr><td>TOTAL</td><td>1-3 days (plus paperwork time)</td></tr>
                 </tbody>
             </table>
             
@@ -376,9 +386,11 @@
                     <li><a href="/florida-llc.html" style="color: #1f6feb;">Florida LLC Guide</a></li>
                     <li><a href="/california-llc.html" style="color: #1f6feb;">California LLC Guide</a></li>
                 </ul>
-                <p style="margin-top: 1rem;"><a href="/index.html" style="color: #1f6feb; font-weight: 600;">← View All 50 State LLC Guides</a></p>
+                <p><a href="/index.html" style="color: #1f6feb; font-weight: 600;">← View All 50 State LLC Guides</a></p>
             </div>
 
+            
+            <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=700<h2>Common Mistakes to Avoid</h2>q=80" alt="Business owner" class="content-image">
             
             <h2>Common Mistakes to Avoid</h2>
             
@@ -416,14 +428,14 @@
             <p>Forming a Nevada LLC is simple enough to do yourself. The forms are straightforward, and the Nevada Secretary of State website has instructions.</p>
             
             <p><strong>When you might want a lawyer:</strong></p>
-            <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+            <ul class="step-list">
                 <li>Complex ownership structures (multiple members with different equity stakes)</li>
                 <li>High-risk industries (healthcare, finance, construction)</li>
                 <li>Significant startup capital or investor involvement</li>
                 <li>You want custom Operating Agreement provisions</li>
             </ul>
             
-            <p style="margin-top: 1rem;"><strong>Typical lawyer cost:</strong> $500-1,500 for LLC formation services.</p>
+            <p><strong>Typical lawyer cost:</strong> $500-1,500 for LLC formation services.</p>
             
             <h2>Nevada LLC Checklist</h2>
             
@@ -488,7 +500,7 @@
             
             <div class="success-box">
                 <strong>✓ Nevada LLC Advantages:</strong>
-                <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                <ul class="step-list">
                     <li>Filing fee: $75</li>
                     <li>Processing time: 1-3 days</li>
                     <li>Ongoing costs: $150/year + $200 business license</li>
@@ -535,7 +547,7 @@
                     <li><a href="/florida-llc.html" style="color: #1f6feb;">Florida LLC Guide</a></li>
                     <li><a href="/california-llc.html" style="color: #1f6feb;">California LLC Guide</a></li>
                 </ul>
-                <p style="margin-top: 1rem;"><a href="/index.html" style="color: #1f6feb; font-weight: 600;">← View All 50 State LLC Guides</a></p>
+                <p><a href="/index.html" style="color: #1f6feb; font-weight: 600;">← View All 50 State LLC Guides</a></p>
             </div>
 
             

@@ -95,6 +95,16 @@
         }
         
         .fact-value {
+
+        /* List styling */
+        .step-list { margin-left: 1.5rem; margin-top: 0.8rem; }
+        .step-list-tight { margin-left: 1.5rem; margin-top: 0.5rem; }
+        .inline-list { margin-left: 1.5rem; margin-top: 1rem; }
+        
+        /* Image styles */
+        .content-image { width: 100%; max-width: 700px; height: auto; border-radius: 8px; margin: 2rem 0; }
+        .image-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+        .image-grid img { width: 100%; height: 250px; object-fit: cover; border-radius: 8px; }
             font-size: 1.5rem;
             font-weight: 700;
             color: #2c3e50;
@@ -423,13 +433,13 @@
                 <li>
                     <h4>Choose Your LLC Name</h4>
                     <p>Your Florida LLC name must:</p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>Include "Limited Liability Company," "LLC," "L.L.C.," or "Ltd. Liability Co."</li>
                         <li>Be distinguishable from existing Florida businesses</li>
                         <li>Not contain restricted words (bank, insurance, trust) without approval</li>
                         <li>Not imply government affiliation (FBI, Treasury, State Department)</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>Check name availability:</strong> <a href="https://dos.fl.gov/sunbiz/search/" target="_blank">Florida Business Name Search (Sunbiz)</a></p>
+                    <p><strong>Check name availability:</strong> <a href="https://dos.fl.gov/sunbiz/search/" target="_blank">Florida Business Name Search (Sunbiz)</a></p>
                     <div class="info-box">
                         <strong>Pro Tip:</strong> Florida allows name reservations for 120 days ($35 fee). Useful if you're not ready to file immediately but want to secure your name.
                     </div>
@@ -439,13 +449,13 @@
                     <h4>Appoint a Registered Agent</h4>
                     <p>Florida requires every LLC to have a registered agent—a person or company authorized to receive legal documents on behalf of your business.</p>
                     <p><strong>Requirements:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>Must have a physical Florida address (no P.O. boxes)</li>
                         <li>Must be available during normal business hours (Mon-Fri, 9 AM-5 PM)</li>
                         <li>Can be yourself, a partner, or a professional service</li>
                         <li>Must accept service of process and legal documents</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>Cost:</strong> $0 if you act as your own agent. Professional services cost $100-300/year.</p>
+                    <p><strong>Cost:</strong> $0 if you act as your own agent. Professional services cost $100-300/year.</p>
                     <div class="warning-box">
                         <strong>Privacy Note:</strong> Your registered agent's address is public record. If you value privacy, consider using a professional registered agent service instead of your home address.
                     </div>
@@ -455,7 +465,7 @@
                     <h4>File Articles of Organization</h4>
                     <p>This is the official document that creates your LLC. You'll submit it to the Florida Division of Corporations.</p>
                     <p><strong>Required information:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>LLC name</li>
                         <li>Principal office address</li>
                         <li>Mailing address</li>
@@ -464,13 +474,13 @@
                         <li>Management structure (member-managed or manager-managed)</li>
                         <li>Name and address of person filing (organizer)</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>How to file:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                    <p><strong>How to file:</strong></p>
+                    <ul class="step-list-tight">
                         <li><strong>Online:</strong> <a href="https://dos.fl.gov/sunbiz/" target="_blank">Florida Sunbiz</a> (fastest, 5-7 business days) — $125</li>
                         <li><strong>Mail:</strong> Send completed form to Division of Corporations (7-10 business days) — $125</li>
                         <li><strong>Expedited (24-hour):</strong> $25 additional fee (online only)</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>Filing Fee:</strong> $125 (non-refundable)</p>
+                    <p><strong>Filing Fee:</strong> $125 (non-refundable)</p>
                     <a href="https://dos.fl.gov/sunbiz/start-business/" target="_blank" class="cta-button">File Online via Sunbiz</a>
                 </li>
                 
@@ -478,7 +488,7 @@
                     <h4>Create an Operating Agreement</h4>
                     <p>While not legally required in Florida, an Operating Agreement is <strong>highly recommended</strong>. It defines ownership percentages, profit distribution, management structure, and procedures for adding/removing members.</p>
                     <p><strong>Why you need it:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>Protects your limited liability status</li>
                         <li>Prevents disputes between members</li>
                         <li>Required by most banks to open a business account</li>
@@ -504,13 +514,13 @@
                     <h4>File Annual Report (Due Every Year)</h4>
                     <p>Florida requires all LLCs to file an annual report by <strong>May 1st</strong> each year. Your first report is due between January 1 and May 1 of the year following formation.</p>
                     <p><strong>What's included:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>Principal office address</li>
                         <li>Mailing address</li>
                         <li>Names and addresses of managers/members</li>
                         <li>Registered agent information</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>Filing fee:</strong> $138.75 (due annually)</p>
+                    <p><strong>Filing fee:</strong> $138.75 (due annually)</p>
                     <p><strong>How to file:</strong> Online through <a href="https://dos.fl.gov/sunbiz/" target="_blank">Florida Sunbiz</a></p>
                     <div class="warning-box">
                         <strong>Important:</strong> Failure to file your annual report by May 1st results in a $400 late fee. Miss it by too long and Florida will administratively dissolve your LLC.
@@ -520,14 +530,14 @@
                 <li>
                     <h4>Obtain Business Licenses & Permits (If Needed)</h4>
                     <p>Florida doesn't require a general state business license, but you may need:</p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li><strong>Sales tax permit:</strong> If selling taxable goods/services (free from Florida Department of Revenue)</li>
                         <li><strong>Professional licenses:</strong> Contractors, real estate agents, therapists, etc.</li>
                         <li><strong>Local business tax receipt:</strong> Required by most Florida cities/counties ($50-500 depending on location)</li>
                         <li><strong>Zoning permits:</strong> If operating from home or specific location</li>
                         <li><strong>Health permits:</strong> Restaurants, salons, childcare facilities</li>
                     </ul>
-                    <p style="margin-top: 1rem;">Check with your city/county clerk's office and the <a href="https://floridarevenue.com/taxes/businesstax/Pages/default.aspx" target="_blank">Florida Department of Revenue</a> for specific requirements.</p>
+                    <p>Check with your city/county clerk's office and the <a href="https://floridarevenue.com/taxes/businesstax/Pages/default.aspx" target="_blank">Florida Department of Revenue</a> for specific requirements.</p>
                 </li>
             </ol>
             
@@ -569,12 +579,12 @@
                         <td>$50-500</td>
                         <td>Varies by city/county</td>
                     </tr>
-                    <tr style="background: #f8f9fa; font-weight: bold;">
+                    <tr>
                         <td>TOTAL (First Year)</td>
                         <td>$263.75+</td>
                         <td>—</td>
                     </tr>
-                    <tr style="background: #f8f9fa; font-weight: bold;">
+                    <tr>
                         <td>TOTAL (Year 2+)</td>
                         <td>$138.75/year</td>
                         <td>—</td>
@@ -618,7 +628,7 @@
                         <td>Get EIN from IRS</td>
                         <td>10 minutes (instant online)</td>
                     </tr>
-                    <tr style="background: #f8f9fa; font-weight: bold;">
+                    <tr>
                         <td>TOTAL (standard filing)</td>
                         <td>7-10 days</td>
                     </tr>
@@ -626,6 +636,8 @@
             </table>
             
             </div>
+            
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700<h2>Common Mistakes to Avoid</h2>q=80" alt="Business owner" class="content-image">
             
             <h2>Common Mistakes to Avoid</h2>
             
@@ -651,7 +663,7 @@
             <p>Forming a Florida LLC is straightforward. The Sunbiz system is user-friendly, and the forms are simple.</p>
             
             <p><strong>When you might want a lawyer:</strong></p>
-            <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+            <ul class="step-list">
                 <li>Complex ownership structures (multiple members with varying equity)</li>
                 <li>High-risk industries (construction, healthcare, finance)</li>
                 <li>Significant startup capital or investor involvement</li>
@@ -659,7 +671,7 @@
                 <li>You want custom Operating Agreement provisions</li>
             </ul>
             
-            <p style="margin-top: 1rem;"><strong>Typical lawyer cost:</strong> $500-1,500 for LLC formation services.</p>
+            <p><strong>Typical lawyer cost:</strong> $500-1,500 for LLC formation services.</p>
             
             <h2>Florida LLC Checklist</h2>
             
@@ -726,13 +738,13 @@
             <h2>What Happens After Your LLC Is Approved?</h2>
             
             <p>Once the Florida Division of Corporations approves your LLC, you'll receive:</p>
-            <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+            <ul class="step-list">
                 <li>Certificate of Status (proof of LLC existence)</li>
                 <li>Document number (your official Florida LLC identification)</li>
             </ul>
             
-            <p style="margin-top: 1rem;"><strong>Next steps:</strong></p>
-            <ol style="margin-left: 1.5rem; margin-top: 0.8rem;">
+            <p><strong>Next steps:</strong></p>
+            <ol class="step-list">
                 <li><strong>Open a business bank account</strong> using your EIN and LLC documents</li>
                 <li><strong>Register for sales tax permit</strong> (if applicable) at <a href="https://floridarevenue.com/" target="_blank">Florida Department of Revenue</a></li>
                 <li><strong>Get local business tax receipt</strong> from your city or county</li>
