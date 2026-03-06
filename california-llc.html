@@ -228,6 +228,16 @@
             color: #2c3e50;
         }
         
+        /* List styling */
+        .step-list { margin-left: 1.5rem; margin-top: 0.8rem; }
+        .step-list-tight { margin-left: 1.5rem; margin-top: 0.5rem; }
+        .inline-list { margin-left: 1.5rem; margin-top: 1rem; }
+        
+        /* Image styles */
+        .content-image { width: 100%; max-width: 700px; height: auto; border-radius: 8px; margin: 2rem 0; }
+        .image-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+        .image-grid img { width: 100%; height: 250px; object-fit: cover; border-radius: 8px; }
+        
         .fact-value.cost { color: #27ae60; }
         .fact-value.time { color: #3498db; }
         .fact-value.difficulty { color: #e67e22; }
@@ -521,63 +531,58 @@
                 <li>
                     <h4>Pick a Name (And Make Sure Nobody Else Took It)</h4>
                     <p>Your LLC name needs to end with "LLC" or "Limited Liability Company" or "L.L.C." That's how California knows it's an LLC and not some other business type.</p>
-                    <p><strong>Rules:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
-                        <li>Must include "Limited Liability Company," "LLC," or "L.L.C."</li>
-                        <li>Can't be too similar to existing California businesses</li>
-                        <li>Can't use certain words like "bank" or "insurance" without special approval (you probably don't need these anyway)</li>
-                    </ul>
-                    <p style="margin-top: 1rem;"><strong>Check if your name is available:</strong> <a href="https://businesssearch.sos.ca.gov/" target="_blank">California Business Search</a></p>
-                    <div class="warning-box">
-                        <strong>Don't skip this step.</strong> If your name is too similar to someone else's business, California will reject your filing and keep your $70. Yes, really.
-                    </div>
+                    
+                    <p>The rules are pretty simple: must include "Limited Liability Company," "LLC," or "L.L.C." in the name. Can't be too similar to existing California businesses. And you can't use certain words like "bank" or "insurance" without special approval (but you probably weren't planning on that anyway).</p>
+                    
+                    <p><strong>Check if your name is available:</strong> <a href="https://businesssearch.sos.ca.gov/" target="_blank">California Business Search</a></p>
+                    
+                    <p>Don't skip this step. If your name is too similar to someone else's business, California will reject your filing and keep your $70. Yes, really.</p>
+                    
+                    <img src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?w=700&q=80" alt="Business owner choosing company name" class="content-image">
                 </li>
                 
                 <li>
                     <h4>Choose a Registered Agent</h4>
                     <p>Every California LLC needs a registered agent. This is the person (or company) who receives legal mail on behalf of your business. If someone sues your LLC, this is who gets served the paperwork.</p>
-                    <p><strong>You can be your own registered agent</strong> (it's free). Or you can hire a service ($100-300/year) if you don't want your home address on public record.</p>
-                    <p><strong>Requirements:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
-                        <li>Must have a physical street address in California (P.O. boxes don't count)</li>
-                        <li>Must be available 9-5 on business days to receive mail</li>
-                        <li>That's it</li>
-                    </ul>
-                    <p style="margin-top: 1rem;"><strong>Cost:</strong> $0 if it's you. $100-300/year if you hire a service.</p>
+                    
+                    <p>You can be your own registered agent (it's free). Or you can hire a service ($100-300/year) if you don't want your home address on public record.</p>
+                    
+                    <p>Requirements: Must have a physical street address in California (P.O. boxes don't count). Must be available 9-5 on business days to receive mail. That's it.</p>
+                    
+                    <p>Cost: $0 if it's you. $100-300/year if you hire a service.</p>
                 </li>
                 
                 <li>
                     <h4>File Your Paperwork (Form LLC-1)</h4>
                     <p>This is the main form. It's called "Articles of Organization" and it's what officially creates your LLC.</p>
-                    <p><strong>What you'll need to fill out:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
-                        <li>Your LLC name</li>
-                        <li>What your business does (you can just write "general business" — they don't really care)</li>
-                        <li>Your registered agent info</li>
-                        <li>Whether it's member-managed or manager-managed (pick member-managed unless you have a specific reason not to)</li>
-                    </ul>
-                    <p style="margin-top: 1rem;"><strong>How to file:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
-                        <li><strong>Online:</strong> <a href="https://bizfileonline.sos.ca.gov/" target="_blank">BizFile Online</a> — Fastest option, takes 3-5 business days</li>
-                        <li><strong>By mail:</strong> Download the form, fill it out, mail it in — Takes 7-10 business days</li>
-                    </ul>
-                    <p style="margin-top: 1rem;"><strong>Cost:</strong> $70. Non-refundable, so make sure your name is available first.</p>
+                    
+                    <p>You'll need: Your LLC name. What your business does (you can just write "general business" — they don't really care). Your registered agent info. Whether it's member-managed or manager-managed (pick member-managed unless you have a specific reason not to).</p>
+                    
+                    <div class="image-grid">
+                        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" alt="Person filling out business documents">
+                        <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&q=80" alt="Business paperwork and filing">
+                    </div>
+                    
+                    <p><strong>How to file:</strong></p>
+                    <p><strong>Online:</strong> <a href="https://bizfileonline.sos.ca.gov/" target="_blank">BizFile Online</a> — Fastest option, takes 3-5 business days</p>
+                    <p><strong>By mail:</strong> Download the form, fill it out, mail it in — Takes 7-10 business days</p>
+                    
+                    <p>Cost: $70. Non-refundable, so make sure your name is available first.</p>
+                    
                     <a href="https://www.sos.ca.gov/business-programs/business-entities/forms" target="_blank" class="cta-button">Download Form LLC-1</a>
                 </li>
                 
                 <li>
-                    <h4>Write an Operating Agreement (Technically Optional But Do It Anyway)</h4>
+                    <h4>Write an Operating Agreement</h4>
                     <p>California doesn't require an Operating Agreement. But you should make one anyway.</p>
-                    <p>It's basically the rulebook for your LLC — who owns what percentage, how profits get split, what happens if someone wants out, etc.</p>
-                    <p><strong>Why bother?</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
-                        <li>Banks usually want to see one before they'll open a business account</li>
-                        <li>It prevents fights later if you have partners</li>
-                        <li>It proves your LLC is a separate entity (helps with liability protection)</li>
-                    </ul>
-                    <div class="info-box">
-                        <strong>Even if you're the only member:</strong> Make an operating agreement. Takes 20 minutes, saves you headaches later. Banks want to see it, and it strengthens the legal wall between you and your business.
-                    </div>
+                    
+                    <p>It's basically the rulebook for your LLC. Who owns what percentage. How profits get split. What happens if someone wants out. That kind of thing.</p>
+                    
+                    <p>Banks usually want to see one before they'll open a business account. It prevents fights later if you have partners. And it proves your LLC is a separate entity which helps with liability protection.</p>
+                    
+                    <p>Even if you're the only member, make an operating agreement. Takes 20 minutes, saves you headaches later. Banks want to see it, and it strengthens the legal wall between you and your business.</p>
+                    
+                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700&q=80" alt="Business partners reviewing LLC agreement" class="content-image">
                 </li>
                 
                 <li>
@@ -594,14 +599,14 @@
                     <h4>File Statement of Information (Form LLC-12)</h4>
                     <p>Within 90 days of forming your LLC, you must file Form LLC-12 with the California Secretary of State.</p>
                     <p><strong>Required information:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li>LLC name and entity number</li>
                         <li>Principal office address</li>
                         <li>Mailing address</li>
                         <li>Names and addresses of all members/managers</li>
                         <li>Registered agent information</li>
                     </ul>
-                    <p style="margin-top: 1rem;"><strong>Filing Fee:</strong> $20</p>
+                    <p ><strong>Filing Fee:</strong> $20</p>
                     <p><strong>Renewal:</strong> Must be filed every 2 years ($20 each time)</p>
                     <a href="https://www.sos.ca.gov/business-programs/business-entities/forms" target="_blank" class="cta-button">Download Form LLC-12</a>
                 </li>
@@ -610,14 +615,14 @@
                     <h4>Pay California Franchise Tax</h4>
                     <p>California charges an annual <strong>$800 minimum franchise tax</strong> to all LLCs, regardless of income.</p>
                     <p><strong>When to pay:</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+                    <ul class="step-list">
                         <li><strong>First year:</strong> Exempt (no payment required)</li>
                         <li><strong>Second year onward:</strong> $800 due by April 15</li>
                     </ul>
                     <div class="success-box">
                         <strong>✓ Good News:</strong> If you form your LLC in December, you get 15 months before your first $800 payment is due.
                     </div>
-                    <p style="margin-top: 1rem;"><strong>Additional fee for high earners:</strong> If your LLC earns over $250,000/year, you'll pay an additional fee ranging from $900 to $11,790.</p>
+                    <p ><strong>Additional fee for high earners:</strong> If your LLC earns over $250,000/year, you'll pay an additional fee ranging from $900 to $11,790.</p>
                 </li>
             </ol>
             
@@ -721,6 +726,8 @@
             
             </div>
             
+            <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=700&q=80" alt="Business owner reviewing LLC requirements" class="content-image">
+            
             <h2>Common Mistakes to Avoid</h2>
             
             <h3>1. Skipping the Operating Agreement</h3>
@@ -745,14 +752,14 @@
             <p>Forming a California LLC is simple enough to do yourself. The forms are straightforward, and the Secretary of State website has instructions.</p>
             
             <p><strong>When you might want a lawyer:</strong></p>
-            <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+            <ul class="step-list">
                 <li>Complex ownership structures (multiple members with different equity stakes)</li>
                 <li>High-risk industries (healthcare, finance, construction)</li>
                 <li>Significant startup capital or investor involvement</li>
                 <li>You want custom Operating Agreement provisions</li>
             </ul>
             
-            <p style="margin-top: 1rem;"><strong>Typical lawyer cost:</strong> $500-1,500 for LLC formation services.</p>
+            <p ><strong>Typical lawyer cost:</strong> $500-1,500 for LLC formation services.</p>
             
             <h2>California LLC Checklist</h2>
             
@@ -819,13 +826,13 @@
             <h2>What Happens After Your LLC Is Approved?</h2>
             
             <p>Once the California Secretary of State approves your LLC, you'll receive:</p>
-            <ul style="margin-left: 1.5rem; margin-top: 0.8rem;">
+            <ul class="step-list">
                 <li>Certificate of Filing (if filed online) or stamped Articles of Organization (if filed by mail)</li>
                 <li>LLC entity number (your official California identification number)</li>
             </ul>
             
-            <p style="margin-top: 1rem;"><strong>Next steps:</strong></p>
-            <ol style="margin-left: 1.5rem; margin-top: 0.8rem;">
+            <p ><strong>Next steps:</strong></p>
+            <ol class="step-list">
                 <li><strong>File Form LLC-12</strong> within 90 days ($20 fee)</li>
                 <li><strong>Open a business bank account</strong> using your EIN and LLC documents</li>
                 <li><strong>Get business insurance</strong> (general liability, professional liability, etc.)</li>
