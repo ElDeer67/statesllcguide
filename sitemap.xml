@@ -342,4 +342,16 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://statesllcguide.com/blog-how-much-does-llc-cost</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://statesllcguide.com/blog-do-i-need-lawyer-for-llc</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
