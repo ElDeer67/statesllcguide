@@ -159,14 +159,27 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: #2c3e50;
+            background: #fff;
+        }
+        
+        .section-gray {
             background: #f8f9fa;
+            padding: 3rem 1rem;
+            margin: 2rem -1rem;
+        }
+        
+        .section-white {
+            background: #fff;
+            padding: 3rem 1rem;
         }
         
         /* Header */
         header {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: linear-gradient(rgba(30, 60, 114, 0.85), rgba(42, 82, 152, 0.85)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80');
+            background-size: cover;
+            background-position: center;
             color: white;
-            padding: 2rem 1rem;
+            padding: 3rem 1rem;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         
@@ -426,7 +439,7 @@
         }
         
         .checklist li::before {
-            content: "✓";
+            content: "";
             position: absolute;
             left: 0.8rem;
             color: #27ae60;
@@ -620,7 +633,7 @@
                         <li><strong>Second year onward:</strong> $800 due by April 15</li>
                     </ul>
                     <div class="success-box">
-                        <strong>✓ Good News:</strong> If you form your LLC in December, you get 15 months before your first $800 payment is due.
+                        <strong>Good News:</strong> If you form your LLC in December, you get 15 months before your first $800 payment is due.
                     </div>
                     <p ><strong>Additional fee for high earners:</strong> If your LLC earns over $250,000/year, you'll pay an additional fee ranging from $900 to $11,790.</p>
                 </li>
