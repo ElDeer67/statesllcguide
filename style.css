@@ -338,13 +338,36 @@ footer .footer-links a { margin: 0 0.5rem; }
 
 /* -------- Mobile -------- */
 @media (max-width: 640px) {
-  .article-header h1 { font-size: 1.65rem; }
-  .featured-img img { height: 200px; }
+  body { font-size: 1rem; }
+  .article-header h1 { font-size: 1.5rem; }
+  .article-body h2 { font-size: 1.3rem; }
+  .blog-body h1 { font-size: 1.5rem; }
+  .blog-body h2 { font-size: 1.25rem; }
+  .featured-img img { height: 180px; }
   .quick-facts-inner { grid-template-columns: 1fr 1fr; }
+  .fact { padding: 0.75rem 0.5rem; }
+  .fact-value { font-size: 1.1rem; }
   .article-body .image-grid { grid-template-columns: 1fr; }
   .article-body .image-grid img { height: 180px; }
-  .steps > li { padding-left: 3rem; }
+  .steps > li { padding-left: 3rem; font-size: 0.95rem; }
   .site-nav { padding: 0.7rem 1rem; }
+
+  /* Homepage mobile */
+  .hero { padding: 2rem 1rem; }
+  .hero h1 { font-size: 1.6rem; }
+  .hero .tagline { font-size: 0.95rem; }
+  .hero-stats { gap: 1.5rem; }
+  .hero-stat .number { font-size: 1.4rem; }
+  .section-title { font-size: 1.3rem; }
+  .popular-grid { grid-template-columns: 1fr; }
+  .all-states { grid-template-columns: 1fr 1fr; }
+  .value-props { grid-template-columns: 1fr; }
+  .home-images { grid-template-columns: 1fr; }
+  .comparison-table { font-size: 0.82rem; }
+  .comparison-table th, .comparison-table td { padding: 0.5rem 0.4rem; }
+
+  /* Tables scroll horizontally on mobile */
+  table { display: block; overflow-x: auto; white-space: nowrap; }
 }
 
 /* -------- Homepage -------- */
