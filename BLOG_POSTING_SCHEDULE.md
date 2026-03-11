@@ -22,7 +22,7 @@
 - Filing fees + registered agent + annual costs + hidden fees
 - State-by-state breakdown
 - Total cost calculator
-- **STATUS:** PENDING
+- **STATUS:** ✅ COMPLETED (blog-how-much-does-llc-cost.html) — already published & deployed
 
 ### ✅ Monday, March 10, 2026 - 3:00 PM CST
 **Topic:** "Do I Need a Lawyer to Form an LLC?"
